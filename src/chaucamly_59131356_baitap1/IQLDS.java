@@ -9,8 +9,9 @@ package chaucamly_59131356_baitap1;
  *
  * @author Cam Ly
  */
-public class Chaucamly_59131356_Baitap1 {
-    public static void main(String[] args) {
-        System.out.println("hello");
-    }
+public interface IQLDS 
+{
+    public int them(CaNhan p);
+    public int xoa(String ten);
+    public void inDS();
 }
